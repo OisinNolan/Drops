@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShopViewController1" customModule="Drop" customModuleProvider="target">
+            <connections>
+                <outlet property="theme1Button" destination="cwj-gN-C4P" id="oZK-Yp-mQu"/>
+                <outlet property="theme1View" destination="Vku-Pq-f44" id="KmM-T1-iiB"/>
+                <outlet property="theme2Button" destination="5bg-SD-0oF" id="Qtf-bW-rhF"/>
+                <outlet property="theme2View" destination="NSI-TS-Lov" id="E6e-Rl-pLV"/>
+                <outlet property="theme3Button" destination="zey-hI-C5s" id="Idd-4f-SPQ"/>
+                <outlet property="theme3View" destination="tNr-0m-xze" id="coZ-Lf-xah"/>
+                <outlet property="theme4Button" destination="uog-Py-xre" id="cPH-jU-yuv"/>
+                <outlet property="theme4View" destination="Mec-AW-JEU" id="mnW-R7-ekg"/>
+                <outlet property="theme5Button" destination="QVf-6D-8NP" id="5fu-zb-iRJ"/>
+                <outlet property="theme5View" destination="xfP-1R-Wha" id="E1t-3n-2OG"/>
+                <outlet property="theme6Button" destination="hGX-DD-AK8" id="IwX-QW-y56"/>
+                <outlet property="theme6View" destination="a1Z-4i-fcm" id="j7e-Va-aDy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XDs-MX-xhj">
+                    <rect key="frame" x="8" y="8" width="304" height="361"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfP-1R-Wha">
+                            <rect key="frame" x="0.0" y="246" width="143" height="115"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theme5" translatesAutoresizingMaskIntoConstraints="NO" id="aPh-Tm-CWv">
+                                    <rect key="frame" x="8" y="8" width="127" height="70"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVf-6D-8NP">
+                                    <rect key="frame" x="8" y="8" width="127" height="107"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                    <state key="normal" title="50">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="theme5Action:" destination="-1" eventType="touchUpInside" id="383-g7-P6h"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNr-0m-xze">
+                            <rect key="frame" x="0.0" y="123" width="143" height="115"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theme3" translatesAutoresizingMaskIntoConstraints="NO" id="pSH-PD-Agh">
+                                    <rect key="frame" x="8" y="8" width="127" height="70"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zey-hI-C5s">
+                                    <rect key="frame" x="8" y="8" width="127" height="107"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                    <state key="normal" title="50">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="theme3Action:" destination="-1" eventType="touchUpInside" id="dFP-cb-rJE"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mec-AW-JEU">
+                            <rect key="frame" x="161" y="123" width="143" height="115"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theme4" translatesAutoresizingMaskIntoConstraints="NO" id="n8u-eX-7ER">
+                                    <rect key="frame" x="8" y="8" width="127" height="70"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uog-Py-xre">
+                                    <rect key="frame" x="8" y="8" width="127" height="107"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                    <state key="normal" title="50">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="theme4Action:" destination="-1" eventType="touchUpInside" id="Jnb-ph-IFh"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NSI-TS-Lov">
+                            <rect key="frame" x="161" y="0.0" width="143" height="115"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theme2" translatesAutoresizingMaskIntoConstraints="NO" id="GjG-nc-60z">
+                                    <rect key="frame" x="8" y="8" width="127" height="70"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bg-SD-0oF">
+                                    <rect key="frame" x="8" y="8" width="127" height="107"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                    <state key="normal" title="50">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="theme2Action:" destination="-1" eventType="touchUpInside" id="6VU-NG-yFb"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vku-Pq-f44">
+                            <rect key="frame" x="0.0" y="0.0" width="143" height="115"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theme1" translatesAutoresizingMaskIntoConstraints="NO" id="hbx-Bu-qJg">
+                                    <rect key="frame" x="8" y="8" width="127" height="70"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwj-gN-C4P">
+                                    <rect key="frame" x="8" y="8" width="127" height="107"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                    <state key="normal" title="50">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="theme1Action:" destination="-1" eventType="touchUpInside" id="D6Q-Ym-WMj"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a1Z-4i-fcm">
+                            <rect key="frame" x="161" y="246" width="143" height="115"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theme6" translatesAutoresizingMaskIntoConstraints="NO" id="Ige-0k-oN3">
+                                    <rect key="frame" x="8" y="8" width="127" height="70"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGX-DD-AK8">
+                                    <rect key="frame" x="8" y="8" width="127" height="107"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                    <state key="normal" title="50">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="theme6Action:" destination="-1" eventType="touchUpInside" id="Trw-J3-pHx"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="centerY" secondItem="NSI-TS-Lov" secondAttribute="centerY" id="15O-7s-ZvW"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="bottom" secondItem="xfP-1R-Wha" secondAttribute="bottom" id="2pc-YT-zuh"/>
+                        <constraint firstAttribute="trailing" secondItem="NSI-TS-Lov" secondAttribute="trailing" id="3Fp-5G-EaW"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="trailing" secondItem="xfP-1R-Wha" secondAttribute="trailing" id="3Qv-7S-BR2"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="centerX" secondItem="Vku-Pq-f44" secondAttribute="centerX" id="4I7-fy-iBO"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="centerX" secondItem="Mec-AW-JEU" secondAttribute="centerX" id="51T-ni-yhz"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="6ni-Uy-RSi"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="246" id="B20-yY-t68"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="trailing" secondItem="Mec-AW-JEU" secondAttribute="trailing" id="B9l-ae-7bs"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="BHo-Zd-nKc"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="trailing" secondItem="Vku-Pq-f44" secondAttribute="trailing" id="BaJ-bO-kqO"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="centerX" secondItem="NSI-TS-Lov" secondAttribute="centerX" id="EOp-fk-1AZ"/>
+                        <constraint firstAttribute="bottom" secondItem="a1Z-4i-fcm" secondAttribute="bottom" id="Eqm-Rc-s3w"/>
+                        <constraint firstAttribute="trailing" secondItem="Mec-AW-JEU" secondAttribute="trailing" id="FFo-SS-a99"/>
+                        <constraint firstAttribute="bottom" secondItem="xfP-1R-Wha" secondAttribute="bottom" id="Ff2-7D-D48"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" constant="161" id="GRz-3u-XNX"/>
+                        <constraint firstAttribute="trailing" secondItem="a1Z-4i-fcm" secondAttribute="trailing" id="J5A-1W-402"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="leading" secondItem="tNr-0m-xze" secondAttribute="leading" id="J9N-Il-BeV"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="123" id="KIe-lx-34n"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" constant="161" id="LeN-Oo-Ix3"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="leading" secondItem="tNr-0m-xze" secondAttribute="trailing" constant="18" id="LjZ-kA-XeC"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="leading" secondItem="a1Z-4i-fcm" secondAttribute="leading" id="M75-vW-pyV"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="centerY" secondItem="XDs-MX-xhj" secondAttribute="centerY" id="NM7-CI-Etd"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="246" id="NVG-ZX-AdK"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="leading" secondItem="Mec-AW-JEU" secondAttribute="leading" id="OAl-XS-LJn"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="OXv-jk-laZ"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="centerX" secondItem="tNr-0m-xze" secondAttribute="centerX" id="P0P-Rr-B2n"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" constant="161" id="PuP-7b-c7a"/>
+                        <constraint firstAttribute="bottom" secondItem="xfP-1R-Wha" secondAttribute="bottom" id="Q2y-CE-0fa"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="QNF-1G-YaM"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="top" secondItem="tNr-0m-xze" secondAttribute="top" id="QQC-te-cua"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="QzB-Zb-jh8"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="246" id="R0j-JQ-OvK"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="trailing" secondItem="Vku-Pq-f44" secondAttribute="trailing" id="Rvl-zY-Uht"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="Smr-tG-7vV"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="T7L-vc-VcF"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="centerY" secondItem="tNr-0m-xze" secondAttribute="centerY" id="TGZ-r6-BwJ"/>
+                        <constraint firstAttribute="trailing" secondItem="a1Z-4i-fcm" secondAttribute="trailing" id="TJR-88-Bc3"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="TYR-Ro-a2c"/>
+                        <constraint firstAttribute="bottom" secondItem="a1Z-4i-fcm" secondAttribute="bottom" id="U4t-33-CEL"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="trailing" secondItem="a1Z-4i-fcm" secondAttribute="trailing" id="UJE-ug-Ft9"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="123" id="V0W-Wk-19Y"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="leading" secondItem="a1Z-4i-fcm" secondAttribute="leading" id="V0j-Hi-bXv"/>
+                        <constraint firstAttribute="bottom" secondItem="Vku-Pq-f44" secondAttribute="bottom" constant="246" id="VBJ-ql-MvE"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="trailing" secondItem="a1Z-4i-fcm" secondAttribute="trailing" id="VDp-tl-kL3"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="top" secondItem="NSI-TS-Lov" secondAttribute="bottom" constant="8" id="Ven-R0-zp7"/>
+                        <constraint firstAttribute="trailing" secondItem="Vku-Pq-f44" secondAttribute="trailing" constant="161" id="WLZ-zz-XWW"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="leading" secondItem="xfP-1R-Wha" secondAttribute="trailing" constant="18" id="Wdg-i1-wLI"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="top" secondItem="Vku-Pq-f44" secondAttribute="bottom" constant="8" symbolic="YES" id="Wgr-oc-1nT"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="leading" secondItem="tNr-0m-xze" secondAttribute="leading" id="X2n-FT-48j"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" constant="161" id="XsI-Fr-LTV"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="top" secondItem="Mec-AW-JEU" secondAttribute="bottom" constant="8" symbolic="YES" id="Y3y-wj-5VH"/>
+                        <constraint firstAttribute="trailing" secondItem="xfP-1R-Wha" secondAttribute="trailing" constant="161" id="Y7b-h5-QcF"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="YBq-sr-4I9"/>
+                        <constraint firstAttribute="trailing" secondItem="NSI-TS-Lov" secondAttribute="trailing" id="YY6-dl-mWX"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="top" secondItem="NSI-TS-Lov" secondAttribute="bottom" constant="8" symbolic="YES" id="Z9u-ii-Xw0"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="bottom" secondItem="Mec-AW-JEU" secondAttribute="bottom" id="aBX-k3-16W"/>
+                        <constraint firstAttribute="bottom" secondItem="NSI-TS-Lov" secondAttribute="bottom" constant="246" id="b4c-CC-0fx"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="cFB-In-gje"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="d2o-oo-dKn"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="dcl-Lg-HDC"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="top" secondItem="Mec-AW-JEU" secondAttribute="bottom" constant="8" id="dsY-EF-EvT"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="leading" secondItem="Vku-Pq-f44" secondAttribute="trailing" constant="18" id="eKd-d5-4m0"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="246" id="ecd-ya-Esk"/>
+                        <constraint firstAttribute="bottom" secondItem="xfP-1R-Wha" secondAttribute="bottom" id="ehb-vF-nVp"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="top" secondItem="tNr-0m-xze" secondAttribute="bottom" constant="8" symbolic="YES" id="fRr-bW-Dto"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="123" id="fUZ-QG-ZDW"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="centerX" secondItem="a1Z-4i-fcm" secondAttribute="centerX" id="fnf-er-tP9"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" constant="161" id="gGP-sf-8Zu"/>
+                        <constraint firstAttribute="bottom" secondItem="tNr-0m-xze" secondAttribute="bottom" constant="123" id="gtG-1y-KK2"/>
+                        <constraint firstAttribute="trailing" secondItem="Mec-AW-JEU" secondAttribute="trailing" id="h6c-k5-xRF"/>
+                        <constraint firstAttribute="bottom" secondItem="a1Z-4i-fcm" secondAttribute="bottom" id="hC3-rw-FyG"/>
+                        <constraint firstAttribute="trailing" secondItem="NSI-TS-Lov" secondAttribute="trailing" id="hmq-gC-PD4"/>
+                        <constraint firstItem="Mec-AW-JEU" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" constant="123" id="iRp-b5-rsy"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="centerY" secondItem="a1Z-4i-fcm" secondAttribute="centerY" id="ifE-2V-MaL"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="centerX" secondItem="tNr-0m-xze" secondAttribute="centerX" id="jP5-nx-IAt"/>
+                        <constraint firstAttribute="bottom" secondItem="Mec-AW-JEU" secondAttribute="bottom" constant="123" id="jPm-MZ-jdt"/>
+                        <constraint firstAttribute="trailing" secondItem="Mec-AW-JEU" secondAttribute="trailing" id="jZx-IZ-T1O"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="mGR-xX-Sjy"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="nB6-xF-fg6"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="nTf-b6-Trq"/>
+                        <constraint firstAttribute="trailing" secondItem="tNr-0m-xze" secondAttribute="trailing" constant="161" id="oKq-pv-rYN"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="oTK-hQ-861"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="top" secondItem="Vku-Pq-f44" secondAttribute="bottom" constant="8" id="p54-ZI-g7V"/>
+                        <constraint firstItem="a1Z-4i-fcm" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" constant="161" id="rZc-Lh-cJk"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="bottom" secondItem="NSI-TS-Lov" secondAttribute="bottom" id="rdf-UD-kW9"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="rtm-yc-DY7"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="top" secondItem="Vku-Pq-f44" secondAttribute="top" id="sJG-xW-phh"/>
+                        <constraint firstAttribute="trailing" secondItem="a1Z-4i-fcm" secondAttribute="trailing" id="sfz-qs-Q9t"/>
+                        <constraint firstItem="NSI-TS-Lov" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="top" id="t5D-ap-UA9"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="top" secondItem="a1Z-4i-fcm" secondAttribute="top" id="tfO-yl-ebS"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="uHf-YY-HKj"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="leading" secondItem="XDs-MX-xhj" secondAttribute="leading" id="v8H-eO-ZGE"/>
+                        <constraint firstItem="Vku-Pq-f44" firstAttribute="leading" secondItem="xfP-1R-Wha" secondAttribute="leading" id="wEo-uw-ryT"/>
+                        <constraint firstItem="xfP-1R-Wha" firstAttribute="top" secondItem="tNr-0m-xze" secondAttribute="bottom" constant="8" id="xy9-Ax-JaC"/>
+                        <constraint firstItem="tNr-0m-xze" firstAttribute="centerY" secondItem="XDs-MX-xhj" secondAttribute="centerY" id="yA6-U2-rQw"/>
+                    </constraints>
+                </view>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="bKI-oA-G8S">
+                    <rect key="frame" x="141" y="377" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="0.98669469356536865" green="0.20216387510299683" blue="0.68949013948440552" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="XDs-MX-xhj" secondAttribute="centerX" id="14n-Nd-AhA"/>
+                <constraint firstAttribute="centerY" secondItem="XDs-MX-xhj" secondAttribute="centerY" constant="51.5" id="9jZ-X3-f8d"/>
+                <constraint firstItem="bKI-oA-G8S" firstAttribute="top" secondItem="XDs-MX-xhj" secondAttribute="bottom" constant="8" id="c6k-My-AHr"/>
+                <constraint firstItem="bKI-oA-G8S" firstAttribute="centerX" secondItem="XDs-MX-xhj" secondAttribute="centerX" id="fpn-le-afC"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="603" y="955"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="theme1" width="127" height="70"/>
+        <image name="theme2" width="127" height="70"/>
+        <image name="theme3" width="127" height="70"/>
+        <image name="theme4" width="127" height="70"/>
+        <image name="theme5" width="127" height="70"/>
+        <image name="theme6" width="127" height="70"/>
+    </resources>
+</document>
